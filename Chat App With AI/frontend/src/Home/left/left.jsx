@@ -5,7 +5,7 @@ const Left = () => {
     <>
 
    <div className="border border-black p-4">
-      Left
+      Chat sectation
     </div>
     </>
   )
