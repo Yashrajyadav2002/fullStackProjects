@@ -1,11 +1,11 @@
 import React from 'react'
+import Search from './search';
 
 const Left = () => {
   return (
     <>
-
-   <div className="border border-black p-4">
-      Chat sectation
+   <div className="w-[30%]  bg-black text-white ">
+      <Search></Search>
     </div>
     </>
   )
