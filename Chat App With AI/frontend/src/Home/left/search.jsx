@@ -7,8 +7,8 @@ function search() {
        <form action=''>
          <div className='flex space-x-3'>
 
-           <label className=" input-bordered flex items-center   w-[90%]">
-             <input type="text" className='grow' placeholder="Search" />
+           <label className=" border-[1px] border-gray-700 bg-slate-900 rounded-lg flex items-center   w-[90%] p-3">
+             <input type="text" className='grow outline-none bg-slate-900' placeholder="Search" />
            </label>
              <button>
                <FaSearch className='text-5xl p-2 hover:bg-gray-600 rounded-full duration-300'/>
