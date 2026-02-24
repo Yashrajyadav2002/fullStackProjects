@@ -10,8 +10,8 @@ import Type from './Type';
     <div className='w-[70%]  bg-slate-950 text-white'>
       <Chatuser></Chatuser>
       
-      <div className='flex-vishal overflow-y-auto'
-          style={{mixHeight:"calc(92vh - 8vh)"}}>
+      <div className='py-2 flex-vishal overflow-y-auto'
+          style={{maxHeight:"calc(88vh - 10vh)"}}>
         <Messages></Messages>
       </div>
       <Type></Type>
